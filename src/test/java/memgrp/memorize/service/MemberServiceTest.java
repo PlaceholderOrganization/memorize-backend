@@ -32,7 +32,6 @@ public class MemberServiceTest {
     }
 
     private Member makeMember(String username, String password, String email) {
-        Member member = new Member(username, password, email);
         return new Member(username, password, email);
     }
 

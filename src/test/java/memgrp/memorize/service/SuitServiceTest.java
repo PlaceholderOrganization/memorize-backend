@@ -2,27 +2,18 @@ package memgrp.memorize.service;
 
 import memgrp.memorize.dto.SuitRequest;
 import memgrp.memorize.dto.SuitResponse;
-import memgrp.memorize.entity.Card;
 import memgrp.memorize.entity.Matrix;
-import memgrp.memorize.entity.Member;
 import memgrp.memorize.entity.Suit;
 import memgrp.memorize.repository.MatrixRepository;
-import memgrp.memorize.repository.MemberRepository;
 import memgrp.memorize.repository.SuitRepository;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.server.ResponseStatusException;
-
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

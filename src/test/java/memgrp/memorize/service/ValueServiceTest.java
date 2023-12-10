@@ -2,11 +2,9 @@ package memgrp.memorize.service;
 
 import memgrp.memorize.dto.ValueRequest;
 import memgrp.memorize.dto.ValueResponse;
-import memgrp.memorize.entity.Matrix;
 import memgrp.memorize.entity.Value;
 import memgrp.memorize.repository.MatrixRepository;
 import memgrp.memorize.repository.ValueRepository;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -15,8 +13,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.when;

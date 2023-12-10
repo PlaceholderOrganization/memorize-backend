@@ -1,17 +1,13 @@
 package memgrp.memorize.api;
 
 
-import jakarta.persistence.EntityNotFoundException;
 import memgrp.memorize.dto.SuitRequest;
 import memgrp.memorize.dto.SuitResponse;
-import memgrp.memorize.entity.Matrix;
-import memgrp.memorize.entity.Suit;
 import memgrp.memorize.repository.MatrixRepository;
 import memgrp.memorize.repository.SuitRepository;
 import memgrp.memorize.service.SuitService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @CrossOrigin("*")

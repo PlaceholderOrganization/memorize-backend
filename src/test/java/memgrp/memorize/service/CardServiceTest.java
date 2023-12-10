@@ -5,14 +5,11 @@ import memgrp.memorize.entity.Card;
 import memgrp.memorize.entity.Suit;
 import memgrp.memorize.entity.Value;
 import memgrp.memorize.repository.CardRepository;
-import memgrp.memorize.repository.SuitRepository;
-import memgrp.memorize.repository.ValueRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Arrays;

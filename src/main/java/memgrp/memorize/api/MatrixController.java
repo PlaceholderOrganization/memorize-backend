@@ -2,8 +2,6 @@ package memgrp.memorize.api;
 
 import memgrp.memorize.dto.MatrixRequest;
 import memgrp.memorize.dto.MatrixResponse;
-import memgrp.memorize.dto.SuitResponse;
-import memgrp.memorize.dto.ValueResponse;
 import memgrp.memorize.service.MatrixService;
 import org.springframework.web.bind.annotation.*;
 

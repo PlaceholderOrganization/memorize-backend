@@ -4,7 +4,7 @@
 
 |                           |          |                                                   |
 |---------------------------|:--------:|:--------------------------------------------------:|
-| Lotte Facer Eliasson       | lott4328 | [GitHub Profile](https://github.com/LotteEliasson) |
+| Lotte Facer Eliasson      | lott4328 | [GitHub Profile](https://github.com/LotteEliasson) |
 | Mikkel Olsen              | mikk39k3 | [GitHub Profile](https://github.com/Selmerr)       |
 | Jakob Agger Johannessen   | jako894n | [GitHub Profile](https://github.com/jakobagger)    |
 | Hannan Ahmed Mohamad Noor | hann7575 | [GitHub Profile](https://github.com/Hannanxnoor)   |
@@ -13,9 +13,9 @@
 ## Project Setup
 
 ### Repos and Cloud
-- 3 Static Web Apps on Azure to host **frontend** for each branch
-- 3 Web Apps on **Azure** to host **backend** for each branch
-- 2 Repositories. One for backend + one for frontend
+- 3 Static Web Apps on Azure to host **frontend** for each branch.
+- 3 Web Apps on **Azure** to host **backend** for each branch.
+- 2 Repositories. One for backend + one for frontend.
 - 1 VM on **Azure** to host a containerized **MySQL** database using **Docker**
 
 ### Branching Strategy

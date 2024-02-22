@@ -14,7 +14,7 @@ import java.util.Base64;
 import java.util.List;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("*")
 @RequestMapping("api/card")
 public class CardController {
 
